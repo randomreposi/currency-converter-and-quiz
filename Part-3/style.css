@@ -1,0 +1,50 @@
+.quiz-box{
+    background-color: var(--color1);
+    min-width: 70%;
+    max-width: 100%;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+}
+.points{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+#question{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+#questionnum{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.answers button{
+    display: block;
+    position: relative;
+    background: none;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.answers button:hover{
+    background-color: white;
+    color: var(--color1);
+    box-shadow: 0 0 5px 1px var(--color1) inset;
+}
+#correct{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#header,#points{
+    display: inline-block;
+}
+#header{
+    margin-right: 10px;
+}
+.no{
+    display:none !important;
+}

@@ -1,0 +1,23 @@
+form{
+    color:#fff;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    max-width: 100vw;
+    border-radius: 10px;
+    min-height: 70vh;
+    background-color: var(--color2);
+    align-items: center;
+    justify-content: space-around;
+}
+form input{
+    font-size: 25px;
+    background: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid white;
+}

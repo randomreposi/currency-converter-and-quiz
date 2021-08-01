@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz</title>
+		<link rel="stylesheet" href="./../style.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="buttons">
+				<a href="./../index.html">Home</a>
+				<a href="./../Part-2/index.html">Currency Converter</a>
+			</div>
+			<div class="quiz-box">
+                <div class="points"><div id="header">Your questions will appear here.</div><div id="points"></div></div>
+                <div id="questionnum"></div>
+				<div id="correct"></div>
+                <div id="question"></div>
+				<div class="answers">
+					<button class="no" id="ans1" onclick="answer(1)"></button>
+					<button class="no" id="ans2" onclick="answer(2)"></button>
+					<button class="no" id="ans3" onclick="answer(3)"></button>
+				</div>
+			</div>
+            <footer>Designed by Inan</footer>
+		</div>
+		<script src="./Quiz.js"></script>
+	</body>
+</html>

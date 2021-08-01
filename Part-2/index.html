@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Currency Converter</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&display=swap"
+			rel="stylesheet"
+		/>
+        <link rel="stylesheet" href="./../style.css">
+        <link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div class="container">
+            <div class="buttons">
+                <a href="./../index.html">Home</a>
+                <a href="./../Part-3/index.html">Quiz</a>
+            </div>
+            <form>
+                <h1>Please input a value to get started</h1>
+                <h3>Taka</h3>
+                <input type="number" id="taka" onchange="convert(1)">
+                <h3>US dollar</h3>
+                <input type="number" id="usd" onchange="convert(2)">
+                <h3>Euros</h3>
+                <input type="number" id="eur" onchange="convert(3)">
+                <h3>Japanese Yen</h3>
+                <input type="number" id="jpy" onchange="convert(4)">
+                <h3>Indian Rupee</h3>
+                <input type="number" id="inr" onchange="convert(5)">
+            </form>
+            <footer>
+                <footer>Designed by Sima</footer>
+            </footer>
+        </div>
+        <script src="./convertion.js"></script>
+	</body>
+</html>
